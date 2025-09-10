@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: lightgrey;
 }
 
 .row {
@@ -31,10 +32,36 @@ html, body {
   border-radius: 100%;
 }
 
-.button-link {
+.button {
   background-color: white;
-  width: 70%;
-  height: 10%;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  border-radius: 32px;
+  margin: 24px 0;
+  width: 75%;
+  padding: 16px;
+}
+
+.button-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.link-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+p {
+  font-size: 28px;
 }
 
 @media (max-width: 600px) {
@@ -44,10 +71,31 @@ html, body {
     width: 100vw;
   }
   .column {
-    flex: 1 1 33.33vh;
+    flex: none;
     width: 100vw;
-    height: 33.33vh;
     max-width: 100vw;
     box-sizing: border-box;
+    height: auto;
+  }
+
+  h1 {
+    margin: 16px 0 8px;
+    font-size: 32px;
+  }
+
+  p {
+    margin: 8px;
+  }
+
+  .info-col {
+    height: 30vh;
+  }
+
+  .photo-col {
+    height: 20vh;
+  }
+
+  .link-col { 
+    height: 50vh;
   }
 }
