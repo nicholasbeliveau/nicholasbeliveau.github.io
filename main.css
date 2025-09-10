@@ -43,6 +43,14 @@ html, body {
   padding: 16px;
 }
 
+.button:hover {
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  box-shadow: 4px 4px;
+  margin: 23px;         /* This offsets the border-width so they buttons stay in the same place */
+}
+
 .button-link {
   width: 100%;
   display: flex;
