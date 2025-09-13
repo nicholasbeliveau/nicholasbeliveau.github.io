@@ -76,7 +76,7 @@ p {
 @media (max-width: 850px) {
   .row {
     flex-direction: column;
-    height: 100vh;
+    height: 100svh;
     width: 100vw;
   }
   .column {
@@ -98,15 +98,15 @@ p {
   }
 
   .info-col {
-    height: 30vh;
+    height: 30svh;
   }
 
   .photo-col {
-    height: 30vh;
+    height: 30svh;
   }
 
   .link-col { 
-    height: 40vh;
+    height: 40svh;
   }
 
   .button {
