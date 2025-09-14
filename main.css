@@ -5,6 +5,10 @@ html, body {
   background-color: lightgrey;
 }
 
+body, .button {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
 .row {
   display: flex;
   height: 100vh;
