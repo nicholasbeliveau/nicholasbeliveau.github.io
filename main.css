@@ -132,4 +132,10 @@ p {
   .button {
     margin: 8px;
   }
+
+  .button:hover {
+    border: none;
+    box-shadow: none;
+    margin: 8px;
+  }
 }
